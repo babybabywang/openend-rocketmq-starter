@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+dev.onload.rocketmq.MyAutoConfiguration
+dev.onload.rocketmq.consumer.service.HandleService=\
+dev.onload.rocketmq.consumer.HandleServiceImpl
