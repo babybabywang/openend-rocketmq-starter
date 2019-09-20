@@ -83,9 +83,9 @@ package dev.study.rocketmq;
 
 import com.google.common.collect.Lists;
 import lombok.extern.slf4j.Slf4j;
-import org.mallcai.rocketmq.consumer.HandleServiceImpl;
-import org.mallcai.rocketmq.consumer.config.ConsumeConfig;
-import org.mallcai.rocketmq.consumer.config.MessageStore;
+import dev.onload.rocketmq.consumer.HandleServiceImpl;
+import dev.onload.rocketmq.consumer.config.ConsumeConfig;
+import dev.onload.rocketmq.consumer.config.MessageStore;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.GetMapping;
